@@ -12,6 +12,7 @@ class ElectricSlide
     def initialize(opts = {})
       @id = opts[:id]
       @address = opts[:address]
+      @call = opts[:call]
       @presence = opts[:presence] || :available
     end
 
